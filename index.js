@@ -36,7 +36,10 @@ for(let layer=0; layer<layers; layer++){
 			iLastRotation = iRotations01 * rotations - spirals;
 		}
 		centerDist += iLastRotation * spiralDistance * 0.5;
-		const theta = iRotations01 * Math.PI * 2 * rotations;
+		let theta = iRotations01 * Math.PI * 2 * rotations;
+		if(config.flipLayers && layer % 2 == 1){
+			theta += Math.PI;
+		}
 		const x = Math.cos(theta) * centerDist + config.offsetX;
 		const y = Math.sin(theta) * centerDist + config.offsetY;
 

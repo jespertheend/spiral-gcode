@@ -53,4 +53,5 @@ G1 F2700 E-5
 	"layerHeight": 0.2,
 	"zHopHeight": 0.4,
 	"zHopRetractAmount": 100,
+	"flipLayers": true,
 }
