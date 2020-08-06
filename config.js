@@ -45,10 +45,12 @@ G1 F2700 E-5
 	"offsetY": 100,
 	"offsetZ": 0.28,
 	"offsetE": 30,
-	"diameter": 120,
+	"diameter": 4,
 	"layers": 3,
-	"extrusion": 2,
-	"resolution": 5,
-	"spiralDistance": 0.3,
-	"layerHeight": 0.2
+	"extrusion": 0.04,
+	"resolution": 15,
+	"spiralDistance": 0.4,
+	"layerHeight": 0.2,
+	"zHopHeight": 0.4,
+	"zHopRetractAmount": 100,
 }
